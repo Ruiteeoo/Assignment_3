@@ -1,6 +1,9 @@
 import random
 
 def heads_or_tails_game():
+    name = input("Who are you?\n> ")
+    print(f"Hello, {name}")
+    
     print("Tossing a coin...")
 
     results = []
